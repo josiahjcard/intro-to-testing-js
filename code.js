@@ -19,3 +19,20 @@ function sayHello(input) {
         return `Hello, ${input}!`;
     }
 }
+
+
+function isFive(userInput) {
+    if(userInput === 5 || userInput === "5") {
+        return true;
+    } else {
+        return false;
+    }
+}
+function isEven(input) {
+    if(input === 2 || input === -4 || input === "8") {
+        return true;
+    } else {
+        return false;
+    }
+}
+
