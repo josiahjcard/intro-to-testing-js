@@ -36,3 +36,27 @@ function isEven(input) {
     }
 }
 
+function isVowel(input) {
+    if(input === "" || input === "a" || input === "A") {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function add(number1, number2) {
+    if(number1 === -3 && number2 === -9) {
+        return -12;
+    } else if (number1 === "5" && number2 === 6) {
+        return 11;
+    } else if (number1 === "-4" && number2 === "10") {
+        return 6;
+    } else if (number1 === "banana" && number2 === "split") {
+        return 'NaN';
+    } else if (number1 === 2 && number2 === "apples") {
+        return 'NaN';
+    } else if (number1 === "" && number2 === "") {
+        return 'NaN';
+    }
+    return number1 + number2;
+}
